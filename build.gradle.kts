@@ -13,7 +13,7 @@ buildscript {
     dependencies {
         classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:1.6.21")
         classpath("com.github.AlexPl292:mark-down-to-slack:1.1.2")
-        classpath("org.eclipse.jgit:org.eclipse.jgit:6.1.0.202203080745-r")
+        classpath("org.eclipse.jgit:org.eclipse.jgit:6.3.0.202209071007-r")
         classpath("org.kohsuke:github-api:1.305")
 
         // This comes from the changelog plugin
@@ -242,7 +242,7 @@ tasks {
 
     // Don't forget to update plugin.xml
     patchPluginXml {
-        sinceBuild.set("222.4167.9")
+        sinceBuild.set("222")
     }
 }
 
